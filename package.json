@@ -1,0 +1,49 @@
+{
+  "name": "@datameshgroup/fusion",
+  "version": "1.9.5",
+  "description": "TypeScript client for the DataMesh Unify payments platform (Fusion / Nexo API)",
+  "license": "MIT",
+  "author": "DataMesh Group",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datameshgroup/sdk-dotnet"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:integration": "vitest run --config vitest.integration.config.ts",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.5.13",
+    "tsup": "^8.3.5",
+    "tsx": "^4.22.3",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

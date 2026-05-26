@@ -1,0 +1,16 @@
+{
+  "ProfileName": "default",
+  "SaleID": "",
+  "POIID": "",
+  "KEK": "",
+  "ProviderIdentification": "",
+  "ApplicationName": "",
+  "SoftwareVersion": "",
+  "CertificationCode": "",
+  "UseTestEnvironment": true,
+  "OperatorID": null,
+  "ShiftNumber": null,
+  "EnableLogFile": false,
+  "EnableVolumeTest": false,
+  "CustomURL": ""
+}

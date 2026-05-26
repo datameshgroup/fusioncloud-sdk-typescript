@@ -1,0 +1,16 @@
+{
+  "ProfileName": "default",
+  "SaleID": "e0ae2486-7fd1-4ffd-818d-ea9a18beffce",
+  "POIID": "DMGCD001",
+  "KEK": "1140B940AD020C7C6EC25DBDBDA4759E3A329CCC6D07A694",
+  "ProviderIdentification": "DMG",
+  "ApplicationName": "FusionApp",
+  "SoftwareVersion": "1.0.0.0",
+  "CertificationCode": "06c17ff1-6a24-41ea-9f6c-9ad3b59f157c",
+  "UseTestEnvironment": true,
+  "OperatorID": null,
+  "ShiftNumber": null,
+  "EnableLogFile": true,
+  "EnableVolumeTest": false,
+  "CustomURL": ""
+}
